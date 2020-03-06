@@ -19,7 +19,7 @@
                                 <rect key="frame" x="20" y="88" width="374" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6nc-yh-Ng7" userLabel="GreenView">
-                                        <rect key="frame" x="8" y="8" width="358" height="758"/>
+                                        <rect key="frame" x="50" y="50" width="274" height="674"/>
                                         <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                 </subviews>
@@ -30,6 +30,7 @@
                                     <constraint firstAttribute="trailingMargin" secondItem="6nc-yh-Ng7" secondAttribute="trailing" id="dpQ-JI-FOg"/>
                                     <constraint firstAttribute="bottomMargin" secondItem="6nc-yh-Ng7" secondAttribute="bottom" id="lsi-St-CQL"/>
                                 </constraints>
+                                <directionalEdgeInsets key="directionalLayoutMargins" top="50" leading="50" bottom="50" trailing="50"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
