@@ -15,29 +15,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xLu-4X-lup" userLabel="RedView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VhQ-tL-UwJ" userLabel="RedView">
                                 <rect key="frame" x="20" y="88" width="374" height="774"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5t6-Xi-Zp0" userLabel="GreenView">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6nc-yh-Ng7" userLabel="GreenView">
                                         <rect key="frame" x="8" y="8" width="358" height="758"/>
                                         <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="5t6-Xi-Zp0" firstAttribute="top" secondItem="xLu-4X-lup" secondAttribute="topMargin" id="A7p-S0-DTg"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="5t6-Xi-Zp0" secondAttribute="trailing" id="W35-oB-R1k"/>
-                                    <constraint firstAttribute="bottomMargin" secondItem="5t6-Xi-Zp0" secondAttribute="bottom" id="ksP-oY-oMf"/>
-                                    <constraint firstItem="5t6-Xi-Zp0" firstAttribute="leading" secondItem="xLu-4X-lup" secondAttribute="leadingMargin" id="xgH-2r-QRa"/>
+                                    <constraint firstItem="6nc-yh-Ng7" firstAttribute="top" secondItem="VhQ-tL-UwJ" secondAttribute="topMargin" id="FXK-ug-5YO"/>
+                                    <constraint firstItem="6nc-yh-Ng7" firstAttribute="leading" secondItem="VhQ-tL-UwJ" secondAttribute="leadingMargin" id="MPz-jM-0Nm"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="6nc-yh-Ng7" secondAttribute="trailing" id="dpQ-JI-FOg"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="6nc-yh-Ng7" secondAttribute="bottom" id="lsi-St-CQL"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="xLu-4X-lup" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Owk-oX-rcF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xLu-4X-lup" secondAttribute="bottom" id="XX1-j8-5ga"/>
-                            <constraint firstItem="xLu-4X-lup" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="feB-p1-pu4"/>
-                            <constraint firstItem="xLu-4X-lup" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="mgu-Aq-GgR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VhQ-tL-UwJ" secondAttribute="trailing" id="QdE-ke-BhQ"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="VhQ-tL-UwJ" secondAttribute="leading" id="dJG-bg-wy9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VhQ-tL-UwJ" secondAttribute="bottom" id="ert-wl-iA0"/>
+                            <constraint firstItem="VhQ-tL-UwJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qdX-qi-An1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
